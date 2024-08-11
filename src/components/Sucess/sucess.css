@@ -1,0 +1,139 @@
+.success-page {
+    background-image: url('../../assets/sucess.jpg');
+    /* Replace 'your-background-image.jpg' with your image URL */
+    background-color: rgb(177, 158, 144);
+    background-blend-mode:soft-light;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Animation for the background */
+/* .success-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    
+} */
+
+/* Style for the payment success container */
+.payment-success {
+    text-align: center;
+    /* color: #fff; */
+    background-color: #d4edda; /* Light background color */
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Style for the checkmark icon */
+.payment-success i {
+    font-size: 48px;
+  margin-bottom: 10px;
+  opacity: 0;
+  animation: checkmarkAnimation 1s forwards;
+}
+
+/* Style for the heading */
+.payment-success h2 {
+    margin: 10px 0;
+  font-size: 24px;
+  opacity: 0;
+  animation: textAnimation 1s forwards;
+}
+
+/* Style for the paragraph */
+.payment-success p {
+    margin: 10px 0;
+    font-size: 16px;
+    opacity: 0;
+    animation: textAnimation 1s forwards;
+}
+
+/* Animation for the checkmark and text */
+@keyframes checkmarkAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes textAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Add animation library */
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  /* Add bounceIn animation */
+  @keyframes bounceIn {
+    0%,
+    20%,
+    40%,
+    60%,
+    80%,
+    100% {
+      transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    20% {
+      transform: scale3d(1.1, 1.1, 1.1);
+    }
+    40% {
+      transform: scale3d(0.9, 0.9, 0.9);
+    }
+    60% {
+      opacity: 1;
+      transform: scale3d(1.03, 1.03, 1.03);
+    }
+    80% {
+      transform: scale3d(0.97, 0.97, 0.97);
+    }
+    100% {
+      opacity: 1;
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.05);
+    }
+  }
+  
+  .infinite {
+    animation-iteration-count: infinite;
+  }

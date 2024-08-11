@@ -1,0 +1,61 @@
+.address-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .address-item {
+    margin-bottom: 10px;
+  }
+  
+  .address-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+
+  .update-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .modal-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .form-control {
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .address-container {
+      padding: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .address-container {
+      padding: 10px;
+    }
+  }
+  /*--------------------- order list ---------------- */
+
+  .inner-oredr-list{
+    display: flex;
+    gap: 16px;
+    margin: 16px;
+    width: 400px;
+  }
+  .main-order-list{
+    display: flex;
+    flex-direction: column;
+  }

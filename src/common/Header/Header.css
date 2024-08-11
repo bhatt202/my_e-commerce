@@ -1,0 +1,46 @@
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+.navbar-expand-lg .navbar-nav{
+    /* flex-direction: row; */
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color:black;
+}
+.nav-link i{
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+.navbar-expand-lg .navbar-nav{
+    /* flex-direction: row;
+    gap: 20px; */
+    align-items: center;
+}
+.hearder-block{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+.cart i{
+    position: relative;
+}
+.cart span{
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: red;
+    color: whitesmoke;
+}
+
+

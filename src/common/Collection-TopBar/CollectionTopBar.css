@@ -1,0 +1,9 @@
+.collection-bg{
+    background-image: url('../../assets/collection-bg.jpg');
+    background-size: cover;
+    height: 350px;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-color: rgba(186, 153, 112, 0.585);
+    background-blend-mode: darken;
+}

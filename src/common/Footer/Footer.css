@@ -1,0 +1,52 @@
+.footer-main {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.inner-cart {
+    padding: 10px;
+    width: 25%;
+}
+
+.inner-cart p {
+    margin: 10px 0px;
+}
+
+.social-link {
+    display: flex;
+    gap: 10px;
+}
+
+.social-link i {
+    margin: 10px 0px;
+    font-size: 22px;
+}
+
+.list {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.list li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.input-text {
+    margin: 20px 0px;
+}
+
+.input-text input {
+    padding: 10px;
+}
+
+.input-text button {
+    padding: 10px 0px;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: darkgray;
+}

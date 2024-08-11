@@ -1,0 +1,22 @@
+.all-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0px auto;
+    gap: 20px;
+    width: 100%;
+}
+.main-image{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.inner-image{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.inner-image .slider-image img{
+    width: 100%;
+}

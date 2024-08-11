@@ -1,0 +1,51 @@
+.signup-bg{
+    background-image: url('../assets/signup-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+   /* position: relative; */
+   /* overflow-y: hidden; */
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.formsignup{
+    max-width:350px;
+    width: 100%;
+    padding: 20px;
+    margin-left: auto;
+    /* margin-right: 60px; */
+    /* margin-top: 50%; */
+    background-color: transparent;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(237, 235, 235, 0.959); 
+}
+.formsignup h3{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 40px;
+}
+.formsignup .submit{
+    margin-top:20px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.submit button{
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    width: 50%;
+    border-radius: 20px;
+    transition: all .4s ease-in-out;
+    background-size: 300% 100%;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+.submit button:hover{
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+    background-color: transparent;
+}
